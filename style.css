@@ -1,56 +1,79 @@
 body {
+    background-color: #5f8f55;
     font-family: "Times New Roman", Times, serif;
-    background: white;
-    color: black;
-    max-width: 850px;
-    margin: 0 auto;
-    padding: 20px;
+    color: #ffffff;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
+    color: #f5d26a;
+    font-size: 48px;
     margin-bottom: 5px;
 }
 
 h2 {
-    text-align: center;
-    font-size: 22px;
+    color: #f5d26a;
     font-weight: normal;
     margin-top: 0;
+    margin-bottom: 30px;
 }
 
-img {
+.main-photo {
+    width: 450px;
+    max-width: 100%;
     display: block;
-    margin: 20px auto;
-    max-width: 500px;
-    width: 100%;
-    height: auto;
+    margin: 0 auto 30px auto;
+    border: 4px solid #f5d26a;
 }
 
 .support-box {
-    border: 1px solid #999;
-    background: #f5f5f5;
-    padding: 15px;
-    margin: 25px auto;
-    width: 80%;
-    text-align: center;
+    background-color: rgba(255,255,255,0.12);
+    border: 2px solid #f5d26a;
+    padding: 20px;
+    margin-bottom: 40px;
 }
 
-button {
-    padding: 8px 20px;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    cursor: pointer;
+.support-box h3 {
+    color: #f5d26a;
 }
 
-.story {
-    margin-top: 30px;
-    line-height: 1.6;
+.support-box label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
     text-align: left;
 }
 
+.support-box input,
+.support-box textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.support-box button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #f5d26a;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.story {
+    text-align: left;
+    line-height: 1.8;
+}
+
 .story h3 {
+    color: #f5d26a;
     text-align: center;
 }
