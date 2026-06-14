@@ -1,108 +1,86 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #496b32;
+    background-color: #3f5f2a;
     font-family: Arial, Helvetica, sans-serif;
-    color: #fff7b8;
+    color: #f1e56b;
     text-align: center;
 }
 
-.page {
-    width: 760px;
+.content-container {
+    width: 620px;
     margin: 0 auto;
-    padding: 18px 0 30px;
+    padding-top: 12px;
+    padding-bottom: 30px;
 }
 
 h1 {
+    font-size: 36px;
     margin: 0;
-    color: #f7e46b;
-    font-size: 44px;
+    padding: 0;
+    color: #f1e56b;
     font-weight: bold;
-    line-height: 1.1;
 }
 
 h2 {
-    margin: 4px 0 18px;
-    color: #f7e46b;
-    font-size: 25px;
+    font-size: 22px;
+    margin: 4px 0 12px;
+    padding: 0;
+    color: #f1e56b;
     font-weight: bold;
 }
 
-.main-photo {
-    display: block;
-    width: 360px;
-    max-width: 90%;
-    margin: 0 auto 12px;
-    border: none;
+h3 {
+    font-size: 18px;
+    margin: 12px 0 8px;
+    color: #f1e56b;
+    font-weight: bold;
 }
 
-.photo-row {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin: 10px auto 15px;
-}
-
-.photo-row img {
-    width: 105px;
-    height: 85px;
+.main-kevin-image {
+    width: 255px;
+    max-height: 360px;
     object-fit: cover;
+    display: block;
+    margin: 8px auto 10px;
 }
 
-.support-form {
-    margin: 10px auto 22px;
+.signup-form {
+    margin: 0 auto 18px;
     text-align: center;
 }
 
-.support-form h3 {
-    color: #f7e46b;
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-.support-form input,
-.support-form textarea {
+.signup-form input,
+.signup-form textarea {
     display: block;
-    width: 250px;
+    width: 260px;
     margin: 6px auto;
-    padding: 5px;
-    font-size: 13px;
+    padding: 4px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     box-sizing: border-box;
 }
 
-.support-form textarea {
+.signup-form textarea {
     width: 320px;
 }
 
-.support-form button {
-    margin-top: 6px;
+.signup-form button {
+    margin-top: 4px;
     padding: 3px 12px;
-    font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     cursor: pointer;
 }
 
-.letter {
-    width: 720px;
-    margin: 0 auto;
+p {
     text-align: left;
-    color: #fff7b8;
-    font-size: 15px;
-    line-height: 1.45;
+    font-size: 16px;
+    line-height: 1.42;
+    margin: 0 0 15px;
+    color: #f1e56b;
 }
 
-.letter p {
-    margin: 0 0 14px;
-}
-
-.counter {
-    margin-top: 20px;
-    font-size: 22px;
-}
-
-footer {
-    margin-top: 15px;
-    color: #fff7b8;
-    font-size: 12px;
+br {
+    line-height: 1.5;
 }
