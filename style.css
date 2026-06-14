@@ -14,60 +14,65 @@ body {
 }
 
 .content-container {
-    text-align: center;
     width: 100%;
+    text-align: center;
 }
 
 h1 {
     font-size: 40px;
     color: rgb(255, 255, 0);
-    font-weight: 700;
-    margin: 26px 0 0;
+    margin: 20px 0 0;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 16px;
     color: rgb(255, 255, 0);
-    font-weight: 700;
-    margin: 0 0 8px;
+    margin: 0 0 10px;
+    font-weight: bold;
 }
 
 h3 {
     font-size: 14px;
     color: rgb(255, 255, 0);
-    font-weight: 700;
-    margin: 8px 0;
+    margin: 12px 0 8px;
+    font-weight: bold;
 }
 
+/* MAIN PHOTO */
+
 .main-kevin-image {
-    width: 110px;
+    width: 300px;
     height: auto;
     display: block;
-    margin: 0 auto 6px;
+    margin: 0 auto 10px;
     border: 3px solid rgb(255, 255, 0);
 }
+
+/* SMALL PHOTO ROW */
 
 .image-row {
     display: flex;
     justify-content: center;
-    gap: 6px;
-    margin-top: 4px;
-    margin-bottom: 10px;
+    gap: 8px;
+    margin-bottom: 15px;
 }
 
 .image-row img {
-    width: 180px;
-    height: 140px;
+    width: 120px;
+    height: 90px;
     object-fit: cover;
     border: 3px solid rgb(255, 255, 0);
 }
+
+/* FORM */
 
 .signup-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .signup-form input[type="text"],
@@ -84,7 +89,7 @@ h3 {
 }
 
 .signup-form textarea {
-    height: 55px;
+    height: 60px;
 }
 
 button {
@@ -95,12 +100,13 @@ button {
     border: none;
     font-size: 18px;
     border-radius: 8px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 button:hover {
     background-color: #218838;
 }
+
+/* STORY */
 
 .content-container p {
     width: 50%;
@@ -111,6 +117,8 @@ button:hover {
     font-size: 18px;
     line-height: 1.4;
 }
+
+/* FOOTER */
 
 br {
     color: rgb(255, 255, 0);
@@ -136,7 +144,7 @@ br {
     }
 
     .main-kevin-image {
-        width: 90px;
+        width: 220px;
     }
 
     .image-row {
@@ -144,12 +152,18 @@ br {
     }
 
     .image-row img {
-        width: 140px;
-        height: 110px;
+        width: 100px;
+        height: 75px;
     }
 
     .content-container p {
         width: 80%;
         font-size: 15px;
+    }
+
+    .signup-form input[type="text"],
+    .signup-form input[type="email"],
+    .signup-form textarea {
+        width: 90%;
     }
 }
