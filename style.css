@@ -1,25 +1,56 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    max-width: 900px;
+    font-family: "Times New Roman", Times, serif;
+    background: white;
+    color: black;
+    max-width: 850px;
     margin: 0 auto;
     padding: 20px;
-    background-color: white;
-    color: #222;
 }
 
 h1 {
     text-align: center;
-    font-size: 42px;
+    font-size: 36px;
+    font-weight: bold;
     margin-bottom: 5px;
 }
 
-h3 {
+h2 {
     text-align: center;
+    font-size: 22px;
     font-weight: normal;
-    color: #666;
     margin-top: 0;
 }
 
-p {
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.support-box {
+    border: 1px solid #999;
+    background: #f5f5f5;
+    padding: 15px;
+    margin: 25px auto;
+    width: 80%;
+    text-align: center;
+}
+
+button {
+    padding: 8px 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.story {
+    margin-top: 30px;
     line-height: 1.6;
+    text-align: left;
+}
+
+.story h3 {
+    text-align: center;
 }
