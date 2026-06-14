@@ -1,79 +1,108 @@
 body {
-    background-color: #5f8f55;
-    font-family: "Times New Roman", Times, serif;
-    color: #ffffff;
     margin: 0;
-    padding: 30px;
+    padding: 0;
+    background-color: #496b32;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff7b8;
+    text-align: center;
 }
 
-.container {
-    max-width: 900px;
-    margin: auto;
-    text-align: center;
+.page {
+    width: 760px;
+    margin: 0 auto;
+    padding: 18px 0 30px;
 }
 
 h1 {
-    color: #f5d26a;
-    font-size: 48px;
-    margin-bottom: 5px;
+    margin: 0;
+    color: #f7e46b;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 1.1;
 }
 
 h2 {
-    color: #f5d26a;
-    font-weight: normal;
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
-.main-photo {
-    width: 450px;
-    max-width: 100%;
-    display: block;
-    margin: 0 auto 30px auto;
-    border: 4px solid #f5d26a;
-}
-
-.support-box {
-    background-color: rgba(255,255,255,0.12);
-    border: 2px solid #f5d26a;
-    padding: 20px;
-    margin-bottom: 40px;
-}
-
-.support-box h3 {
-    color: #f5d26a;
-}
-
-.support-box label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    text-align: left;
-}
-
-.support-box input,
-.support-box textarea {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-.support-box button {
-    margin-top: 20px;
-    padding: 12px 24px;
-    background-color: #f5d26a;
-    border: none;
-    cursor: pointer;
+    margin: 4px 0 18px;
+    color: #f7e46b;
+    font-size: 25px;
     font-weight: bold;
 }
 
-.story {
-    text-align: left;
-    line-height: 1.8;
+.main-photo {
+    display: block;
+    width: 360px;
+    max-width: 90%;
+    margin: 0 auto 12px;
+    border: none;
 }
 
-.story h3 {
-    color: #f5d26a;
+.photo-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px auto 15px;
+}
+
+.photo-row img {
+    width: 105px;
+    height: 85px;
+    object-fit: cover;
+}
+
+.support-form {
+    margin: 10px auto 22px;
     text-align: center;
+}
+
+.support-form h3 {
+    color: #f7e46b;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.support-form input,
+.support-form textarea {
+    display: block;
+    width: 250px;
+    margin: 6px auto;
+    padding: 5px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.support-form textarea {
+    width: 320px;
+}
+
+.support-form button {
+    margin-top: 6px;
+    padding: 3px 12px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.letter {
+    width: 720px;
+    margin: 0 auto;
+    text-align: left;
+    color: #fff7b8;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.letter p {
+    margin: 0 0 14px;
+}
+
+.counter {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+footer {
+    margin-top: 15px;
+    color: #fff7b8;
+    font-size: 12px;
 }
