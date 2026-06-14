@@ -1,86 +1,128 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    padding: 0;
-    background-color: #3f5f2a;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #f1e56b;
+    background-color: green;
+    font-family: "Comic Sans MS", "Comic Neue", sans-serif;
+    color: yellow;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
 .content-container {
-    width: 620px;
-    margin: 0 auto;
-    padding-top: 12px;
-    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
 }
 
 h1 {
-    font-size: 36px;
-    margin: 0;
-    padding: 0;
-    color: #f1e56b;
-    font-weight: bold;
+    font-size: 60px;
+    color: yellow;
+    margin: 20px 0 0;
 }
 
 h2 {
-    font-size: 22px;
-    margin: 4px 0 12px;
-    padding: 0;
-    color: #f1e56b;
-    font-weight: bold;
+    font-size: 30px;
+    color: yellow;
+    margin: 0 0 10px;
 }
 
 h3 {
-    font-size: 18px;
-    margin: 12px 0 8px;
-    color: #f1e56b;
-    font-weight: bold;
+    font-size: 25px;
+    color: yellow;
+    margin: 15px 0 8px;
 }
 
 .main-kevin-image {
-    width: 255px;
-    max-height: 360px;
-    object-fit: cover;
-    display: block;
-    margin: 8px auto 10px;
+    max-width: 70%;
+    height: auto;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-row img {
+    width: 12%;
+    height: auto;
+}
+
+#family_photo {
+    width: 20%;
 }
 
 .signup-form {
-    margin: 0 auto 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form textarea {
+    width: 400px;
+    max-width: 90vw;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
     text-align: center;
-}
-
-.signup-form input,
-.signup-form textarea {
-    display: block;
-    width: 260px;
-    margin: 6px auto;
-    padding: 4px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    box-sizing: border-box;
 }
 
-.signup-form textarea {
-    width: 320px;
-}
-
-.signup-form button {
-    margin-top: 4px;
-    padding: 3px 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+button {
+    padding: 10px 20px;
     cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
 }
 
-p {
+.content-container p {
+    width: 50%;
     text-align: left;
-    font-size: 16px;
-    line-height: 1.42;
-    margin: 0 0 15px;
-    color: #f1e56b;
+    margin: 20px auto;
+    color: yellow;
+    font-size: 18px;
 }
 
-br {
-    line-height: 1.5;
+footer,
+.footer-text {
+    color: yellow;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    .image-row img {
+        width: 20%;
+    }
+
+    #family_photo {
+        width: 30%;
+    }
+
+    .content-container p {
+        width: 80%;
+        margin: 15px auto;
+    }
 }
